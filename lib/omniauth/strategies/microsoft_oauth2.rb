@@ -18,7 +18,7 @@ module OmniAuth
       end
 
       info do
-        { name: "Microsoft user" } # only mandatory field
+        { name: uid } # only mandatory field
       end
 
       extra do
